@@ -1,0 +1,19 @@
+GET http://localhost:3003/users
+####
+GET http://localhost:3003/products
+####
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email": "beltrana@email.com",
+    "password": "beltrana00"
+}
+####
+POST http://localhost:3003/users/login
+Content-Type: application/json
+
+{
+    "email": "astrodev@email.com",
+    "password": "astrodev99"
+}
